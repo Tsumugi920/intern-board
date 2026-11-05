@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><title>管理页 - InternBoard</title><link rel="stylesheet" href="style.css"></head>
+<body><header><h1>管理页：投递与面试</h1><p><a href="index.html" style="color:#fff">回首页</a></p></header><main><div id="box"></div><script>
+async function load(){
+  const a=await (await fetch('/api/applications')).json();
+  const iv=await (await fetch('/api/interviews')).json();
+  document.getElementById('box').innerHTML='<h2>投递</h2>'+a.items.map(x=>`<div class="card">#${x.id} ${x.applicant} · ${x.jobTitle} · ${x.status} <button onclick="del('applications',${x.id})">删除</button></div>`).join('')
+  +'<h2>面试</h2>'+iv.items.map(x=>`<div class="card">投递 #${x.applicationId} · ${x.time} · ${x.interviewer} · ${x.result} <button onclick="del('interviews',${x.id})">删除</button></div>`).join('');
+}
+async function del(res,id){await fetch('/api/'+res+'/'+id,{method:'DELETE'});load();}
+load();</script></main></body></html>

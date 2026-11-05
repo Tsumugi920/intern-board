@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><title>InternBoard 校园实习招聘平台</title><link rel="stylesheet" href="style.css"></head>
+<body><header><h1>InternBoard 校园实习招聘平台</h1><p>企业发布实习 · 学生投递简历 · 面试全流程在线跟进 · <a href="admin.html" style="color:#fff">管理页</a></p></header>
+<nav><button onclick="show('dash',this)" class="active">数据看板</button><button onclick="show('jobs',this)">实习岗位</button><button onclick="show('comp',this)">企业</button><button onclick="show('apps',this)">投递</button><button onclick="show('res',this)">简历库</button><button onclick="show('iv',this)">面试 / 消息</button></nav>
+<main>
+<section id="dash" class="active"><h2>数据看板</h2><div id="statBox"></div></section>
+<section id="jobs"><h2>实习岗位</h2>
+<label>类型 <select id="jt" onchange="loadJobs()"><option value="">全部</option><option>实习</option><option>兼职</option></select></label>
+<label>状态 <select id="js" onchange="loadJobs()"><option value="">全部</option><option value="open">开放中</option><option value="closed">已关闭</option></select></label>
+<label>排序 <select id="jo" onchange="loadJobs()"><option value="">默认</option><option value="salaryMin">薪资从低到高</option><option value="views">浏览量</option><option value="deadline">截止日期</option></select></label>
+<input id="jq" placeholder="搜索岗位 / 公司 / 标签" oninput="loadJobs()">
+<div id="jobList"></div>
+<form onsubmit="return applyJob(event)"><h3>快速投递</h3><input id="aj" type="number" placeholder="岗位 ID" required><input id="an" placeholder="姓名" required><input id="as" placeholder="学号" required><input id="ar" placeholder="简历一句话" required><button>投递</button></form></section>
+<section id="comp"><h2>企业</h2><div id="compList"></div></section>
+<section id="apps"><h2>投递记录</h2><label>状态 <select id="as2" onchange="loadApps()"><option value="">全部</option><option>投递</option><option>初筛</option><option>面试</option><option>offer</option><option>拒绝</option></select></label><div id="appList"></div></section>
+<section id="res"><h2>简历库</h2><div id="resList"></div></section>
+<section id="iv"><h2>面试安排</h2><div id="ivList"></div><h2>消息</h2><div id="msgList"></div></section>
+</main><script src="app.js"></script></body></html>

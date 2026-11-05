@@ -1,0 +1,904 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "星云科技",
+      "industry": "互联网",
+      "size": "500-1000人",
+      "location": "北京",
+      "intro": "专注云计算与 AI 基础设施的科技公司，校招合作院校 40 余所。",
+      "verified": true
+    },
+    {
+      "id": 2,
+      "name": "青藤教育",
+      "industry": "教育",
+      "size": "100-500人",
+      "location": "上海",
+      "intro": "K12 在线教育平台，教研与产品团队持续扩招实习生。",
+      "verified": true
+    },
+    {
+      "id": 3,
+      "name": "恒信银行",
+      "industry": "金融",
+      "size": "1000人以上",
+      "location": "深圳",
+      "intro": "全国性股份制银行，金融科技部每年开放暑期实习。",
+      "verified": true
+    },
+    {
+      "id": 4,
+      "name": "绿野新能源",
+      "industry": "新能源",
+      "size": "500-1000人",
+      "location": "合肥",
+      "intro": "光伏与储能研发制造企业，工程与算法岗均有实习名额。",
+      "verified": true
+    },
+    {
+      "id": 5,
+      "name": "云帆物流",
+      "industry": "物流",
+      "size": "1000人以上",
+      "location": "广州",
+      "intro": "智慧物流平台，覆盖全国 200 多个城市的仓配网络。",
+      "verified": true
+    },
+    {
+      "id": 6,
+      "name": "蜜糖文创",
+      "industry": "文创",
+      "size": "50-100人",
+      "location": "成都",
+      "intro": "独立游戏与短视频内容工作室，氛围轻松，作品导向。",
+      "verified": false
+    },
+    {
+      "id": 7,
+      "name": "安康医疗",
+      "industry": "医疗健康",
+      "size": "500-1000人",
+      "location": "武汉",
+      "intro": "互联网医疗平台，数据与运营实习生长期招聘。",
+      "verified": true
+    },
+    {
+      "id": 8,
+      "name": "飞驰汽车",
+      "industry": "汽车",
+      "size": "1000人以上",
+      "location": "长春",
+      "intro": "新能源汽车厂商，自动驾驶与车联网团队招实习生。",
+      "verified": true
+    },
+    {
+      "id": 9,
+      "name": "稻香食品",
+      "industry": "消费品",
+      "size": "100-500人",
+      "location": "杭州",
+      "intro": "新消费食品品牌，市场与电商运营岗实习常年开放。",
+      "verified": false
+    },
+    {
+      "id": 10,
+      "name": "蓝鲸咨询",
+      "industry": "咨询",
+      "size": "50-100人",
+      "location": "北京",
+      "intro": "精品战略咨询公司，暑期实习竞争激烈，留用率高。",
+      "verified": true
+    },
+    {
+      "id": 11,
+      "name": "启明星航天",
+      "industry": "航空航天",
+      "size": "500-1000人",
+      "location": "西安",
+      "intro": "商业航天公司，结构与测控方向实习生少量招募。",
+      "verified": true
+    },
+    {
+      "id": 12,
+      "name": "橙光传媒",
+      "industry": "传媒",
+      "size": "100-500人",
+      "location": "上海",
+      "intro": "MCN 与品牌营销机构，新媒体运营实习可远程。",
+      "verified": false
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "title": "前端开发实习生",
+      "companyId": 1,
+      "company": "星云科技",
+      "type": "实习",
+      "salaryMin": 250,
+      "salaryMax": 350,
+      "location": "北京",
+      "tags": [
+        "React",
+        "TypeScript",
+        "远程可选"
+      ],
+      "deadline": "2026-12-20",
+      "status": "open",
+      "views": 1280,
+      "createdAt": "2026-11-01"
+    },
+    {
+      "id": 2,
+      "title": "后端开发实习生",
+      "companyId": 1,
+      "company": "星云科技",
+      "type": "实习",
+      "salaryMin": 280,
+      "salaryMax": 380,
+      "location": "北京",
+      "tags": [
+        "Go",
+        "MySQL",
+        "微服务"
+      ],
+      "deadline": "2026-12-18",
+      "status": "open",
+      "views": 964,
+      "createdAt": "2026-11-01"
+    },
+    {
+      "id": 3,
+      "title": "产品经理实习生",
+      "companyId": 2,
+      "company": "青藤教育",
+      "type": "实习",
+      "salaryMin": 200,
+      "salaryMax": 300,
+      "location": "上海",
+      "tags": [
+        "需求分析",
+        "Axure",
+        "数据分析"
+      ],
+      "deadline": "2026-12-15",
+      "status": "open",
+      "views": 1532,
+      "createdAt": "2026-11-02"
+    },
+    {
+      "id": 4,
+      "title": "金融科技数据分析实习生",
+      "companyId": 3,
+      "company": "恒信银行",
+      "type": "实习",
+      "salaryMin": 180,
+      "salaryMax": 260,
+      "location": "深圳",
+      "tags": [
+        "Python",
+        "SQL",
+        "风控"
+      ],
+      "deadline": "2026-12-10",
+      "status": "open",
+      "views": 876,
+      "createdAt": "2026-11-02"
+    },
+    {
+      "id": 5,
+      "title": "算法工程师实习生",
+      "companyId": 4,
+      "company": "绿野新能源",
+      "type": "实习",
+      "salaryMin": 300,
+      "salaryMax": 420,
+      "location": "合肥",
+      "tags": [
+        "机器学习",
+        "PyTorch",
+        "时序预测"
+      ],
+      "deadline": "2026-12-25",
+      "status": "open",
+      "views": 1103,
+      "createdAt": "2026-11-03"
+    },
+    {
+      "id": 6,
+      "title": "运营实习生",
+      "companyId": 5,
+      "company": "云帆物流",
+      "type": "兼职",
+      "salaryMin": 120,
+      "salaryMax": 180,
+      "location": "广州",
+      "tags": [
+        "数据运营",
+        "Excel",
+        "周末班"
+      ],
+      "deadline": "2026-12-05",
+      "status": "open",
+      "views": 642,
+      "createdAt": "2026-11-03"
+    },
+    {
+      "id": 7,
+      "title": "游戏策划实习生",
+      "companyId": 6,
+      "company": "蜜糖文创",
+      "type": "实习",
+      "salaryMin": 150,
+      "salaryMax": 220,
+      "location": "成都",
+      "tags": [
+        "数值策划",
+        "Unity",
+        "剧本"
+      ],
+      "deadline": "2026-11-30",
+      "status": "open",
+      "views": 2077,
+      "createdAt": "2026-11-04"
+    },
+    {
+      "id": 8,
+      "title": "自动驾驶测试实习生",
+      "companyId": 8,
+      "company": "飞驰汽车",
+      "type": "实习",
+      "salaryMin": 260,
+      "salaryMax": 360,
+      "location": "长春",
+      "tags": [
+        "C++",
+        "仿真",
+        "路测"
+      ],
+      "deadline": "2026-12-22",
+      "status": "open",
+      "views": 733,
+      "createdAt": "2026-11-04"
+    },
+    {
+      "id": 9,
+      "title": "新媒体运营实习生",
+      "companyId": 9,
+      "company": "稻香食品",
+      "type": "兼职",
+      "salaryMin": 100,
+      "salaryMax": 160,
+      "location": "杭州",
+      "tags": [
+        "小红书",
+        "短视频",
+        "直播"
+      ],
+      "deadline": "2026-12-08",
+      "status": "open",
+      "views": 1890,
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 10,
+      "title": "战略咨询实习生",
+      "companyId": 10,
+      "company": "蓝鲸咨询",
+      "type": "实习",
+      "salaryMin": 350,
+      "salaryMax": 500,
+      "location": "北京",
+      "tags": [
+        "行研",
+        "PPT",
+        "英语"
+      ],
+      "deadline": "2026-12-12",
+      "status": "open",
+      "views": 2450,
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 11,
+      "title": "结构设计实习生",
+      "companyId": 11,
+      "company": "启明星航天",
+      "type": "实习",
+      "salaryMin": 220,
+      "salaryMax": 320,
+      "location": "西安",
+      "tags": [
+        "CAD",
+        "有限元",
+        "材料"
+      ],
+      "deadline": "2026-11-28",
+      "status": "closed",
+      "views": 512,
+      "createdAt": "2026-10-28"
+    },
+    {
+      "id": 12,
+      "title": "品牌营销实习生",
+      "companyId": 12,
+      "company": "橙光传媒",
+      "type": "兼职",
+      "salaryMin": 130,
+      "salaryMax": 200,
+      "location": "上海",
+      "tags": [
+        "品牌",
+        "活动策划",
+        "远程"
+      ],
+      "deadline": "2026-12-01",
+      "status": "closed",
+      "views": 698,
+      "createdAt": "2026-10-30"
+    }
+  ],
+  "applications": [
+    {
+      "id": 1,
+      "jobId": 1,
+      "jobTitle": "前端开发实习生",
+      "applicant": "陈晓雨",
+      "studentId": "202221001",
+      "resume": "计算机科学与技术大三，GPA 3.6，有相关课程项目与社团经历，求职意向明确。",
+      "status": "投递",
+      "createdAt": "2026-11-02"
+    },
+    {
+      "id": 2,
+      "jobId": 2,
+      "jobTitle": "后端开发实习生",
+      "applicant": "李浩然",
+      "studentId": "202221002",
+      "resume": "软件工程大三，GPA 3.7，有相关课程项目与社团经历，求职意向明确。",
+      "status": "初筛",
+      "createdAt": "2026-11-03"
+    },
+    {
+      "id": 3,
+      "jobId": 3,
+      "jobTitle": "产品经理实习生",
+      "applicant": "王思琪",
+      "studentId": "202221003",
+      "resume": "数据科学与大数据技术大四，GPA 3.8，有相关课程项目与社团经历，求职意向明确。",
+      "status": "面试",
+      "createdAt": "2026-11-04"
+    },
+    {
+      "id": 4,
+      "jobId": 4,
+      "jobTitle": "金融科技数据分析实习生",
+      "applicant": "张子涵",
+      "studentId": "202221004",
+      "resume": "金融学大三，GPA 3.5，有相关课程项目与社团经历，求职意向明确。",
+      "status": "offer",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 5,
+      "jobId": 5,
+      "jobTitle": "算法工程师实习生",
+      "applicant": "刘一鸣",
+      "studentId": "202221005",
+      "resume": "电子信息工程大四，GPA 3.6，有相关课程项目与社团经历，求职意向明确。",
+      "status": "拒绝",
+      "createdAt": "2026-11-01"
+    },
+    {
+      "id": 6,
+      "jobId": 6,
+      "jobTitle": "运营实习生",
+      "applicant": "赵欣怡",
+      "studentId": "202221006",
+      "resume": "市场营销大三，GPA 3.7，有相关课程项目与社团经历，求职意向明确。",
+      "status": "投递",
+      "createdAt": "2026-11-02"
+    },
+    {
+      "id": 7,
+      "jobId": 7,
+      "jobTitle": "游戏策划实习生",
+      "applicant": "周天宇",
+      "studentId": "202221007",
+      "resume": "机械设计制造及其自动化大四，GPA 3.8，有相关课程项目与社团经历，求职意向明确。",
+      "status": "初筛",
+      "createdAt": "2026-11-03"
+    },
+    {
+      "id": 8,
+      "jobId": 8,
+      "jobTitle": "自动驾驶测试实习生",
+      "applicant": "吴雨桐",
+      "studentId": "202221008",
+      "resume": "新闻传播学大三，GPA 3.5，有相关课程项目与社团经历，求职意向明确。",
+      "status": "面试",
+      "createdAt": "2026-11-04"
+    },
+    {
+      "id": 9,
+      "jobId": 9,
+      "jobTitle": "新媒体运营实习生",
+      "applicant": "郑博文",
+      "studentId": "202221009",
+      "resume": "人工智能大三，GPA 3.6，有相关课程项目与社团经历，求职意向明确。",
+      "status": "投递",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 10,
+      "jobId": 10,
+      "jobTitle": "战略咨询实习生",
+      "applicant": "孙嘉琪",
+      "studentId": "202221010",
+      "resume": "工商管理大四，GPA 3.7，有相关课程项目与社团经历，求职意向明确。",
+      "status": "offer",
+      "createdAt": "2026-11-01"
+    },
+    {
+      "id": 11,
+      "jobId": 1,
+      "jobTitle": "前端开发实习生",
+      "applicant": "胡文博",
+      "studentId": "202221011",
+      "resume": "通信工程大三，GPA 3.8，有相关课程项目与社团经历，求职意向明确。",
+      "status": "拒绝",
+      "createdAt": "2026-11-02"
+    },
+    {
+      "id": 12,
+      "jobId": 2,
+      "jobTitle": "后端开发实习生",
+      "applicant": "林小满",
+      "studentId": "202221012",
+      "resume": "工业设计大三，GPA 3.5，有相关课程项目与社团经历，求职意向明确。",
+      "status": "初筛",
+      "createdAt": "2026-11-03"
+    }
+  ],
+  "resumes": [
+    {
+      "id": 1,
+      "studentId": "202221001",
+      "name": "陈晓雨",
+      "major": "计算机科学与技术",
+      "grade": "大三",
+      "skills": "Java/Python",
+      "education": "赣南师范大学 计算机科学与技术本科",
+      "experience": "校内ACM 集训队成员，曾参与 2 个课程项目。",
+      "visibility": "公开",
+      "createdAt": "2026-11-01"
+    },
+    {
+      "id": 2,
+      "studentId": "202221002",
+      "name": "李浩然",
+      "major": "软件工程",
+      "grade": "大三",
+      "skills": "React/Vue",
+      "education": "赣南师范大学 软件工程本科",
+      "experience": "校内学生会技术部成员，曾参与 2 个课程项目。",
+      "visibility": "公开",
+      "createdAt": "2026-11-01"
+    },
+    {
+      "id": 3,
+      "studentId": "202221003",
+      "name": "王思琪",
+      "major": "数据科学与大数据技术",
+      "grade": "大四",
+      "skills": "Go/MySQL",
+      "education": "赣南师范大学 数据科学与大数据技术本科",
+      "experience": "校内数据分析社成员，曾参与 2 个课程项目。",
+      "visibility": "私密",
+      "createdAt": "2026-11-01"
+    },
+    {
+      "id": 4,
+      "studentId": "202221004",
+      "name": "张子涵",
+      "major": "金融学",
+      "grade": "大三",
+      "skills": "Axure/数据分析",
+      "education": "赣南师范大学 金融学本科",
+      "experience": "校内金融协会成员，曾参与 2 个课程项目。",
+      "visibility": "公开",
+      "createdAt": "2026-11-01"
+    },
+    {
+      "id": 5,
+      "studentId": "202221005",
+      "name": "刘一鸣",
+      "major": "电子信息工程",
+      "grade": "大四",
+      "skills": "Python/SQL",
+      "education": "赣南师范大学 电子信息工程本科",
+      "experience": "校内电子设计竞赛队成员，曾参与 2 个课程项目。",
+      "visibility": "公开",
+      "createdAt": "2026-11-01"
+    },
+    {
+      "id": 6,
+      "studentId": "202221006",
+      "name": "赵欣怡",
+      "major": "市场营销",
+      "grade": "大三",
+      "skills": "Excel/数据运营",
+      "education": "赣南师范大学 市场营销本科",
+      "experience": "校内市场营销协会成员，曾参与 2 个课程项目。",
+      "visibility": "私密",
+      "createdAt": "2026-11-01"
+    },
+    {
+      "id": 7,
+      "studentId": "202221007",
+      "name": "周天宇",
+      "major": "机械设计制造及其自动化",
+      "grade": "大四",
+      "skills": "Unity/数值策划",
+      "education": "赣南师范大学 机械设计制造及其自动化本科",
+      "experience": "校内机械创新社成员，曾参与 2 个课程项目。",
+      "visibility": "公开",
+      "createdAt": "2026-11-01"
+    },
+    {
+      "id": 8,
+      "studentId": "202221008",
+      "name": "吴雨桐",
+      "major": "新闻传播学",
+      "grade": "大三",
+      "skills": "C++/仿真",
+      "education": "赣南师范大学 新闻传播学本科",
+      "experience": "校内校园电视台成员，曾参与 2 个课程项目。",
+      "visibility": "公开",
+      "createdAt": "2026-11-01"
+    },
+    {
+      "id": 9,
+      "studentId": "202221009",
+      "name": "郑博文",
+      "major": "人工智能",
+      "grade": "大三",
+      "skills": "剪辑/文案",
+      "education": "赣南师范大学 人工智能本科",
+      "experience": "校内AI 学习小组成员，曾参与 2 个课程项目。",
+      "visibility": "私密",
+      "createdAt": "2026-11-01"
+    },
+    {
+      "id": 10,
+      "studentId": "202221010",
+      "name": "孙嘉琪",
+      "major": "工商管理",
+      "grade": "大四",
+      "skills": "行研/PPT",
+      "education": "赣南师范大学 工商管理本科",
+      "experience": "校内创业孵化基地成员，曾参与 2 个课程项目。",
+      "visibility": "公开",
+      "createdAt": "2026-11-01"
+    },
+    {
+      "id": 11,
+      "studentId": "202221011",
+      "name": "胡文博",
+      "major": "通信工程",
+      "grade": "大三",
+      "skills": "CAD/有限元",
+      "education": "赣南师范大学 通信工程本科",
+      "experience": "校内通信实验室成员，曾参与 2 个课程项目。",
+      "visibility": "公开",
+      "createdAt": "2026-11-01"
+    },
+    {
+      "id": 12,
+      "studentId": "202221012",
+      "name": "林小满",
+      "major": "工业设计",
+      "grade": "大三",
+      "skills": "PS/活动策划",
+      "education": "赣南师范大学 工业设计本科",
+      "experience": "校内设计工作室成员，曾参与 2 个课程项目。",
+      "visibility": "私密",
+      "createdAt": "2026-11-01"
+    }
+  ],
+  "interviews": [
+    {
+      "id": 1,
+      "applicationId": 1,
+      "time": "2026-11-11 14:00",
+      "place": "线上视频面试",
+      "link": "https://meeting.example.com/room-1001",
+      "interviewer": "技术负责人李工",
+      "result": "待定",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 2,
+      "applicationId": 2,
+      "time": "2026-11-12 14:00",
+      "place": "公司总部 3 楼会议室",
+      "link": "",
+      "interviewer": "部门主管张总",
+      "result": "通过",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 3,
+      "applicationId": 3,
+      "time": "2026-11-13 14:00",
+      "place": "线上视频面试",
+      "link": "https://meeting.example.com/room-1003",
+      "interviewer": "HR 赵女士",
+      "result": "未通过",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 4,
+      "applicationId": 4,
+      "time": "2026-11-14 14:00",
+      "place": "公司总部 3 楼会议室",
+      "link": "",
+      "interviewer": "HR 王经理",
+      "result": "待定",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 5,
+      "applicationId": 5,
+      "time": "2026-11-15 14:00",
+      "place": "线上视频面试",
+      "link": "https://meeting.example.com/room-1005",
+      "interviewer": "技术负责人李工",
+      "result": "通过",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 6,
+      "applicationId": 6,
+      "time": "2026-11-16 14:00",
+      "place": "公司总部 3 楼会议室",
+      "link": "",
+      "interviewer": "部门主管张总",
+      "result": "待定",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 7,
+      "applicationId": 7,
+      "time": "2026-11-17 14:00",
+      "place": "线上视频面试",
+      "link": "https://meeting.example.com/room-1007",
+      "interviewer": "HR 赵女士",
+      "result": "未通过",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 8,
+      "applicationId": 8,
+      "time": "2026-11-18 14:00",
+      "place": "公司总部 3 楼会议室",
+      "link": "",
+      "interviewer": "HR 王经理",
+      "result": "通过",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 9,
+      "applicationId": 9,
+      "time": "2026-11-19 14:00",
+      "place": "线上视频面试",
+      "link": "https://meeting.example.com/room-1009",
+      "interviewer": "技术负责人李工",
+      "result": "待定",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 10,
+      "applicationId": 10,
+      "time": "2026-11-20 14:00",
+      "place": "公司总部 3 楼会议室",
+      "link": "",
+      "interviewer": "部门主管张总",
+      "result": "通过",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 11,
+      "applicationId": 11,
+      "time": "2026-11-21 14:00",
+      "place": "线上视频面试",
+      "link": "https://meeting.example.com/room-1011",
+      "interviewer": "HR 赵女士",
+      "result": "待定",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 12,
+      "applicationId": 12,
+      "time": "2026-11-22 14:00",
+      "place": "公司总部 3 楼会议室",
+      "link": "",
+      "interviewer": "HR 王经理",
+      "result": "未通过",
+      "createdAt": "2026-11-05"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "user": "陈晓雨",
+      "jobId": 1,
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 2,
+      "user": "陈晓雨",
+      "jobId": 3,
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 3,
+      "user": "李浩然",
+      "jobId": 2,
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 4,
+      "user": "王思琪",
+      "jobId": 5,
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 5,
+      "user": "张子涵",
+      "jobId": 4,
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 6,
+      "user": "刘一鸣",
+      "jobId": 8,
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 7,
+      "user": "赵欣怡",
+      "jobId": 9,
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 8,
+      "user": "周天宇",
+      "jobId": 8,
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 9,
+      "user": "吴雨桐",
+      "jobId": 9,
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 10,
+      "user": "郑博文",
+      "jobId": 5,
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 11,
+      "user": "孙嘉琪",
+      "jobId": 10,
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 12,
+      "user": "林小满",
+      "jobId": 7,
+      "createdAt": "2026-11-05"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "applicationId": 1,
+      "from": "陈晓雨",
+      "to": "星云科技 HR",
+      "content": "您好，我是前端实习岗位的申请人，想确认一下面试是否需要带作品集？",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 2,
+      "applicationId": 2,
+      "from": "星云科技 HR",
+      "to": "陈晓雨",
+      "content": "你好，带上 GitHub 链接或 1-2 个代表项目即可，面试约在下周三下午。",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 3,
+      "applicationId": 3,
+      "from": "李浩然",
+      "to": "星云科技 HR",
+      "content": "后端岗位的笔试大概是什么形式？需要提前准备算法题吗？",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 4,
+      "applicationId": 4,
+      "from": "星云科技 HR",
+      "to": "李浩然",
+      "content": "笔试 60 分钟，2 道算法 + 1 道数据库设计，难度中等。",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 5,
+      "applicationId": 5,
+      "from": "王思琪",
+      "to": "绿野新能源 HR",
+      "content": "算法岗实习是否提供住宿补贴？",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 6,
+      "applicationId": 6,
+      "from": "绿野新能源 HR",
+      "to": "王思琪",
+      "content": "提供每月 800 元租房补贴，另有餐补。",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 7,
+      "applicationId": 7,
+      "from": "张子涵",
+      "to": "恒信银行 HR",
+      "content": "请问暑期实习的留用考核一般在几月？",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 8,
+      "applicationId": 8,
+      "from": "恒信银行 HR",
+      "to": "张子涵",
+      "content": "一般在实习结束前两周答辩，表现优秀可直接发 offer。",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 9,
+      "applicationId": 9,
+      "from": "赵欣怡",
+      "to": "稻香食品 HR",
+      "content": "兼职新媒体岗每周最少到岗几天？",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 10,
+      "applicationId": 10,
+      "from": "稻香食品 HR",
+      "to": "赵欣怡",
+      "content": "每周至少 3 天，考试周可请假。",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 11,
+      "applicationId": 11,
+      "from": "郑博文",
+      "to": "蓝鲸咨询 HR",
+      "content": "咨询实习对英语有硬性要求吗？",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 12,
+      "applicationId": 12,
+      "from": "蓝鲸咨询 HR",
+      "to": "郑博文",
+      "content": "需要能读写英文报告，面试含 10 分钟英文交流。",
+      "createdAt": "2026-11-05"
+    }
+  ]
+}

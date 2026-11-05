@@ -1,0 +1,1 @@
+{"dependencies":{"express":"^4.19.2"},"description":"InternBoard campus internship recruitment platform","main":"server/index.js","name":"intern-board","scripts":{"start":"node server/index.js"},"version":"1.0.0"}
